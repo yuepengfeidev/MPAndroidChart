@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_dynamic_set"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="输入数据"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2009" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_09_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_09_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2010" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_10_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_10_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="50dp"
+                android:text="@string/_2011" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_11_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_11_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2012" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_12_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_12_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2013" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_13_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_13_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2014" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_14_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_14_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2015" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_15_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_15_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2016" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_16_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_16_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2017" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_17_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_17_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="48dp"
+                android:text="@string/_2018" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:text="@string/audi"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_18_audi"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_marginStart="24dp"
+                android:text="@string/benz"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_18_benz"
+                style="@style/CustomEditText"
+                android:hint="@string/input_data" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_negative"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="#9B9DB1"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dialog_positive"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="#de0000"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cceed0</color>
+    <color name="colorPrimaryDark">#cceed0</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="pinkBenz">#FFC0CB</color>
+    <color name="blueAudi">#87CEEB</color>
+
+    <color name="seaShell">#FFF5EE</color>
+</resources>

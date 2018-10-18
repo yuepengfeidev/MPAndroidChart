@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/show_vertices_data"
+        android:title="显示顶点值" />
+
+    <item
+        android:id="@+id/show_circle"
+        android:title="显示圆点" />
+
+    <item
+        android:id="@+id/dynamic_data"
+        android:title="动态数据" />
+
+    <item
+        android:id="@+id/only_see_audi"
+        android:title="只看宝马" />
+
+    <item
+        android:id="@+id/only_see_benz"
+        android:title="只看奔驰" />
+
+    <item
+        android:id="@+id/all_data"
+        android:title="显示全数据" />
+
+    <item
+        android:id="@+id/save_to_local"
+        android:title="保存到本地" />
+
+</menu>
