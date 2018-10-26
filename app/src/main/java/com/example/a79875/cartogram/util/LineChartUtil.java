@@ -154,7 +154,11 @@ public class LineChartUtil {
         legend.setDrawInside(false);
         // 设置图例的文本方向
         legend.setDirection(Legend.LegendDirection.LEFT_TO_RIGHT);
+<<<<<<< HEAD
         // 设置图例的形式为正方形
+=======
+        // 设置图例的形式为水平线条
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
         legend.setForm(Legend.LegendForm.SQUARE);
         // 设置图例文本字体大小
         legend.setTextSize(12f);

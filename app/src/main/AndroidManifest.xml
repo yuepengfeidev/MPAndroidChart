@@ -26,6 +26,7 @@
         <activity
             android:name=".chart.LineChartActivity"
             android:screenOrientation="portrait" />
+<<<<<<< HEAD
         <activity
             android:name=".chart.RadarChartActivity"
             android:screenOrientation="portrait" />
@@ -33,6 +34,10 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".chart.PieChartActivity"
             android:screenOrientation="portrait"></activity>
+=======
+        <activity android:name=".chart.RadarChartActivity"
+            android:screenOrientation="portrait" />
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
     </application>
 
 </manifest>

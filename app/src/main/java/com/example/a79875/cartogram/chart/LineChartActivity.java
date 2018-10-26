@@ -66,7 +66,11 @@ public class LineChartActivity extends AppCompatActivity {
 
     /* 初始化视图*/
     private void initView() {
+<<<<<<< HEAD
         Toolbar toolbar = findViewById(R.id.toolbar1);
+=======
+        Toolbar toolbar = findViewById(R.id.toolbar);
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {

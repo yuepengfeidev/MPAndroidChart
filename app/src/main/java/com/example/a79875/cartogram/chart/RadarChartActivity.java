@@ -43,9 +43,15 @@ public class RadarChartActivity extends AppCompatActivity {
     private MenuItem yCoordinateDataItem;// 显示Y轴坐标菜单项
     private MenuItem xCoordinateDataItem;// 显示X轴坐标菜单项
     private MenuItem yDataItem;// 显示Y轴数据菜单项
+<<<<<<< HEAD
     private MenuItem seeAllItem;// aa
 
     // 两条环形蜘蛛线（奥迪销量，奔驰销量)
+=======
+    private MenuItem seeAllItem;// 显示全部数据菜单项
+
+    // 两条环形蜘蛛线（奥迪销量，奔驰销量
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
     private RadarDataSet audiDataSet;
     private RadarDataSet benzDataSet;
 
@@ -65,7 +71,11 @@ public class RadarChartActivity extends AppCompatActivity {
     }
 
     private void initView() {
+<<<<<<< HEAD
         Toolbar toolbar = findViewById(R.id.toolbar2);
+=======
+        Toolbar toolbar = findViewById(R.id.toolbar);
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {

@@ -13,9 +13,13 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.a79875.cartogram.R;
+<<<<<<< HEAD
 import com.example.a79875.cartogram.chart.BarChartActivity;
 import com.example.a79875.cartogram.chart.LineChartActivity;
 import com.example.a79875.cartogram.chart.PieChartActivity;
+=======
+import com.example.a79875.cartogram.chart.LineChartActivity;
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
 import com.example.a79875.cartogram.chart.RadarChartActivity;
 import com.example.a79875.cartogram.entity.Chart;
 
@@ -48,6 +52,7 @@ public class ChartAdapter extends RecyclerView.Adapter<ChartAdapter.ViewHolder> 
                     Intent intent1 = new Intent(mContext, RadarChartActivity.class);
                     mContext.startActivity(intent1);
                     break;
+<<<<<<< HEAD
                 case 2://打开条形图
                     Intent intent2 = new Intent(mContext,BarChartActivity.class);
                     mContext.startActivity(intent2);
@@ -56,6 +61,8 @@ public class ChartAdapter extends RecyclerView.Adapter<ChartAdapter.ViewHolder> 
                     Intent intent3 = new Intent(mContext,PieChartActivity.class);
                     mContext.startActivity(intent3);
                     break;
+=======
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
                 default:
                     break;
             }

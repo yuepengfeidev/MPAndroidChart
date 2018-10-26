@@ -24,12 +24,15 @@ public class MainActivity extends AppCompatActivity {
             ,new Chart(R.drawable.ic_radar_chart,
             "Radar Chart",
             "一个简单展示两款汽车销售量的雷达图")
+<<<<<<< HEAD
             ,new Chart(R.drawable.ic_bar_chart_icon,
             "Bar Chart",
             "一个简单展示两款汽车销售量的条形图")
             ,new Chart(R.drawable.ic_pie_chart_icon,
             "Pie Chart",
             "一个简单展示两款汽车销售量的饼状图")
+=======
+>>>>>>> 5d947c7d67b93c7c278c4f39ceae03f100d0fee4
     };
 
     private ArrayList<Chart> chartArrayList = new ArrayList<>();
