@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/show_y_data_bar"
+        android:title="显示Y轴值"/>
+
+    <item android:id="@+id/only_see_audi_bar"
+        android:title="只看奥迪"/>
+
+    <item android:id="@+id/only_see_benz_bar"
+        android:title="只看奔驰"/>
+
+    <item android:id="@+id/see_all_bar"
+        android:title="显示全数据"/>
+
+    <item android:id="@+id/dynamic_data_bar"
+        android:title="动态数据"/>
+
+    <item android:id="@+id/save_to_local_bar"
+        android:title="保存到本地"/>
+
+
+</menu>

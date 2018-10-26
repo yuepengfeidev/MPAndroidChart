@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Chart</string>
+    <string name="line_chart">折线图</string>
+    <string name="show_vertices_values">显示顶点值</string>
+    <string name="hint_vertices_values">隐藏顶点值</string>
+    <string name="show_circle">显示圆点</string>
+    <string name="hint_circle">隐藏圆点</string>
+    <string name="dynamic_data">动态数据</string>
+    <string name="save_to_local">保存到本地</string>
+    <string name="line_chart_title">近十年两款车销售情况的折线图</string>
+    <string name="line_chart_description">一个简单的折线图</string>
+    <string name="only_see_audi">只看奥迪</string>
+    <string name="only_see_benz">只看奔驰</string>
+    <string name="no_data">暂无数据</string>
+    <string name="all_data">全数据</string>
+    <string name="input_data" />
+    <string name="dialog_title">输入数据</string>
+    <string name="audi">奥迪</string>
+    <string name="benz">奔驰</string>
+    <string name="_2009">2009年</string>
+    <string name="_2010">2010年</string>
+    <string name="_2011">2011年</string>
+    <string name="_2012">2012年</string>
+    <string name="_2013">2013年</string>
+    <string name="_2014">2014年</string>
+    <string name="_2015">2015年</string>
+    <string name="_2016">2016年</string>
+    <string name="_2017">2017年</string>
+    <string name="_2018">2018年</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+</resources>

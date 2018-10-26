@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="隐藏百分比"
+        android:id="@+id/show_proportion"/>
+
+    <item android:id="@+id/dynamic_data_pie"
+        android:title="动态数据"/>
+
+    <item android:id="@+id/save_to_local_pie"
+        android:title="保存到本地"/>
+
+</menu>
